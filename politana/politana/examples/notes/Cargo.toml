@@ -1,0 +1,8 @@
+[package]
+name = "notes"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+politana = { path = "../../" }
+time = { version = "0.3.44", features = ["macros", "formatting", "wasm-bindgen", "local-offset"] }

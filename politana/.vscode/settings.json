@@ -1,0 +1,16 @@
+{
+    "rust-analyzer.cargo.target": "wasm32-unknown-unknown",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#873a49",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#8c4352",
+        "titleBar.inactiveForeground": "#ffffff",
+        "activityBar.background": "#783b2a",
+        "activityBar.foreground": "#fff",
+        "activityBar.inactiveForeground": "#ffffffbb",
+        "activityBarBadge.background": "#9dc524",
+        "activityBarBadge.foreground": "#000",
+        "activityBar.activeBorder": "#9dc524"
+    },
+    "window.title": "Politana"
+}

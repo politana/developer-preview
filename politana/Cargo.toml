@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "politana",
+    "politana-view-macro",
+    "politana/examples/notes",
+    "politana/examples/pathology",
+    "politana/examples/wgpu-example",
+    "politana/examples/physics-simulation",
+    "politana-tests"
+]
+resolver = "2"
+
+[workspace.dependencies]
+web-sys = { version = "0.3.83", features = ["Window", "Document", "HtmlElement", "Element", "CssStyleDeclaration", "Event", "PointerEvent", "InputEvent", "HtmlInputElement", "HtmlSelectElement", "HtmlTextAreaElement", "HtmlCanvasElement", "console", "ResizeObserver", "ResizeObserverEntry", "ResizeObserverSize", "HtmlHeadElement", "DomTokenList", "DomRectReadOnly", "Location", "History"] }
